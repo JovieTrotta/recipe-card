@@ -1,0 +1,154 @@
+/***** BASE STYLES *****/
+
+body {
+  background-color: #DAF7F6;
+  color: #3B3B3B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+main {
+  width: 1000px;
+	margin: 0 auto;
+}
+
+/***** HEADER *****/
+
+header {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+header img {
+  margin-right: 15px;
+}
+
+header h1 {
+  color: #F16059;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  padding: 40px 0;
+  text-transform: uppercase;
+}
+
+/***** RECIPE CARD STRUCTURE *****/
+
+.card {
+  margin: 25px 0;
+  overflow: auto;
+}
+
+.image img {
+  float: left;
+  height: 550px;
+  width: 500px;
+}
+
+.recipe {
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  float: left;
+  height: 550px;
+  padding: 20px;
+  width: 500px;
+}
+
+.recipe h2 {
+  color: #F16059;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+/***** TIME SECTION *****/
+
+.time {
+  border: solid #3B3B3B 1px;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+.prep-time, .cook-time, .total-time {
+  box-sizing: border-box;
+  float: left;
+  padding-left: 6px;
+  text-transform: uppercase;
+  width: 33.3333%;
+}
+
+.prep-time {
+  border-right: solid #3B3B3B 1px;
+}
+
+.cook-time {
+  border-right: solid #3B3B3B 1px;
+}
+
+.time img {
+  height: auto;
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 15px;
+}
+
+.time p {
+  display: inline-block;
+}
+
+.time p b {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***** RECIPE CONTENT *****/
+
+.description p {
+  margin: 15px auto;
+}
+
+.columns {
+  overflow: auto;
+}
+
+.ingredients {
+  float: left;
+  width: 50%;
+}
+
+.directions {
+  float: left;
+  width: 50%;
+}
+
+.ingredients h4, .directions h4 {
+  color: #F16059;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: solid #3B3B3B 1px;
+  border-bottom: solid #3B3B3B 1px;
+}
+
+.ingredients h4 {
+  margin-right: 20px;
+}
+
+.ingredients ul {
+  padding-left: 15px;
+  line-height: 24px;
+  list-style-type: square;
+}
+
+.directions ol {
+  line-height: 22px;
+  padding-left: 15px;
+}
